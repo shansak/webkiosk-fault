@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+function changeImage(){
+document.getElementById("image").src="../Downloads/ba.jpg";
+
+
+}
+function old(){
+document.getElementById("image").src="../Downloads/cloud.jpg";
+
+
+
+
+
+
+
+
+}
+
+</script>
+</head>
+<body>
+
+<img src="../Downloads/cloud.jpg" id="image"  onmouseover="changeImage()" onmouseout="old()"/>
+
+
+
+</body>
+</html>
